@@ -1,0 +1,793 @@
+:: StoryTitle
+Entre Silêncios e Gritos
+
+
+:: StoryData
+{
+  "ifid": "B6566B4A-99A7-47FF-B893-2F575F4F7B49",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Menu",
+  "tag-colors": {
+    "Final-Bom": "green",
+    "Final-Ruim": "red",
+    "Cena1": "blue",
+    "Cena2": "blue",
+    "Cena3": "blue",
+    "Cena4": "blue",
+    "Cena5": "blue",
+    "Cena6": "blue"
+  },
+  "zoom": 1
+}
+
+
+:: Agradecer e não toma nenhuma atitude. {"position":"450,325","size":"100,100"}
+  <head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/mVFWj17P/Cena8.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .txt {
+        	width: 600px;
+            height: 320px;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 950px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Ignorando o conselho de Ana, Henrique sente os dias se tornarem mais pesados. Faltando ao trabalho e com as notas caindo, ele se afasta de todos, sendo consumido pela solidão e pela dor crescente, como se estivesse se afundando cada vez mais.
+ [[Procura respostas nas redes sociais.]]
+[[Guarda para si e segue o dia normalmente.]]</p>
+        </div>
+    </div>
+</body>
+
+
+:: Continua ignorando os sinais. [Final-Ruim] {"position":"900,325","size":"100,100"}
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/qYMFcQ0q/Cena12.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .txt {
+        	width: 600px;
+            height: 300px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Com o tempo, a angústia de Henrique se torna apatia. Ele abandona o emprego, repete o ano e se sente como um fardo, isolando-se enquanto suas crises de ansiedade continuam a dominá-lo.
+            [[Veja o seu final]]</p>
+        </div>
+    </div>
+</body>
+
+
+:: Conversa com um amigo de confiança. {"position":"600,175","size":"100,100"}
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/JWwP0FgX/Cena6.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .txt {
+        	width: 700px;
+            height: 300px;
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 1000px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            font-size: 20px;
+            margin-top: -10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <br/>
+        <div class="txt">
+            <p>Henrique conversa com Ana, sua melhor amiga. Ana responde com carinho. Diz que também anda ansiosa e que, recentemente, começou a fazer terapia. Ela compartilha o contato de um centro de atendimento psicológico da cidade. Henrique fica surpreso em saber que tem esse tipo de ajuda de graça. E agora?
+[[Marca uma consulta com um psicólogo.]]
+[[Agradecer e não toma nenhuma atitude.]].</p>
+        </div>
+    </div>
+</body>
+
+
+:: Crise emocional o leva a procurar ajuda. {"position":"750,325","size":"100,100"}
+Durante uma aula, Henrique é tomado por uma crise de choro, sem conseguir controlar as lágrimas. A professora, atenta, percebe e o chama para conversar. Preocupada, a escola aciona a equipe pedagógica e o encaminha para acompanhamento psicológico. Aos poucos, a rede de apoio começa a se formar ao seu redor. No início, Henrique sente vergonha, tentando esconder o que sente, mas, com o tempo, vai percebendo que não está sozinho. O peso que carregava começa a parecer mais leve, porque, finalmente, ele tem pessoas que se importam.
+
+Logo após [[Marca uma consulta com um psicólogo.]]
+
+
+
+
+:: E o que ele vai fazer? [Cena6] {"position":"725,50","size":"100,100"}
+Depois de tanto sofrimento ele fica pensativo.
+
+Agora você descide. O que Henrique faz?
+[[Conversa com um amigo de confiança.]] 
+[[Guarda para si e segue o dia normalmente.]] 
+[[Procura respostas nas redes sociais.]] 
+
+
+:: E o que mais? [Cena4] {"position":"475,50","size":"100,100"}
+  <head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/dsSDP5DZ/Cena4.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .txt {
+        	width: 700px;
+            height: 300px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Certo dia, durante o intervalo, Henrique encontra um aluno novo de outra sala. O garoto o encara com desprezo e, com um sorriso sarcástico, faz um comentário sobre sua cor. As palavras ferem, mas Henrique fica em silêncio, pensativo. Por um instante, tudo ao redor parece desaparecer enquanto ele reflete sobre o peso daquele julgamento.
+            [[Ele ficou pensativo?]]</p>
+        </div>
+    </div>
+</body>
+
+
+:: E sobre sua família? [Cena2] {"position":"225,50","size":"100,100"}
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/KjRJ6hCZ/Cena2.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .txt {
+        	width: 750px;
+            height: 310px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Ele vive numa cidadezinha com poucas pessoas. É aquele tipo de lugar onde todo mundo se conhece e as oportunidades são poucas. Vindo de uma família simples, ele faz parte da parcela do Brasil que enfrenta a pobreza de perto. Mas, mesmo com todos os desafios, ele estuda todos os dias, até é muito cobrado, pelos pais. Ele tem um objetivo claro na cabeça: transformar a própria vida e levar os pais junto nessa mudança.
+            [[Existe mais algo?]]</p>
+        </div>
+    </div>
+</body>
+
+
+:: Ele ficou pensativo? [Cena5] {"position":"600,50","size":"100,100"}
+  <head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/LhxTB4GP/Cena5.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .txt {
+        	width: 650px;
+            height: 300px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Após o episódio no intervalo, ele se deita na mesa, sobrecarregado de pensamentos negativos. Sente-se inútil, incapaz de mudar sua vida difícil. O medo de ser despedido do trabalho o consome, e ele começa a duvidar de si mesmo, achando que nada vai melhorar. No entanto, apesar da dor, uma pequena chama de força ainda se mantém, lutando para não se apagar.
+            [[E o que ele vai fazer?]]</p>
+        </div>
+    </div>
+</body>
+
+
+:: Existe mais algo? [Cena3] {"position":"350,50","size":"100,100"}
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/6R0kdBdh/Cena3.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        .txt {
+        	width: 700px;
+            height: 280px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Para ajudar em casa, Henrique trabalha no contraturno da escola numa mercearia do bairro. Não é o emprego dos sonhos, nem o que ele imagina para o futuro, mas é o que tem agora. Cada turno ali, apesar da rotina cansativa, faz a diferença para os pais. Ele sabe que, por mais simples que seja, é um passo importante para o futuro que quer construir.
+            [[E o que mais?]]</p>
+        </div>
+    </div>
+</body>
+
+
+:: Fica preso nas redes e se sente pior. [Final-Ruim] {"position":"1000,200","size":"100,100"}
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/h1RbKfss/Cena10.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .txt {
+        	width: 710px;
+            height: 320px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Henrique passa horas assistindo vídeos sobre saúde mental, mas nunca busca ajuda real. Ele se compara constantemente com influenciadores e sente como se estivesse "fracassando na vida". A ansiedade o consome, virando insônia, noites sem fim de pensamentos torturantes. Ele tenta lidar sozinho, mas a dor só cresce, como se cada dia fosse um peso insuportável, e ele estivesse se afundando cada vez mais.
+            [[Veja o seu final]]</p>
+        </div>
+    </div>
+</body>
+
+
+:: Guarda para si e segue o dia normalmente. {"position":"725,175","size":"100,100"}
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/xKBbKv8b/Cena11.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .txt {
+        	width: 700px;
+            height: 300px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Henrique finge que está tudo bem, repetindo para si mesmo: “É só uma fase”. Ele evita conversas, o alimento perde o sabor e as aulas tornam-se um peso. A cada passo, sente-se mais distante, como se estivesse se afastando de tudo e de todos. A solidão o envolve cada vez mais.
+[[Crise emocional o leva a procurar ajuda.]]
+[[Continua ignorando os sinais.]]</p>
+        </div>
+    </div>
+</body>
+
+
+
+
+:: Jogar {"position":"100,50","size":"100,100"}
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.postimg.cc/9MG6WTqm/Cena1.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 1px;
+        }
+        .txt {
+        	width: 600px;
+            height: 320px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Esse é o Henrique. Ele tem 17 anos, é negro, estuda numa escola pública e está no último ano do ensino médio. Um dos melhores alunos da turma, tem nota alta, cabeça focada, mas, ainda assim, vive com aquela sensação de que nunca é o bastante. Como se, por mais que se esforce, o reconhecimento sempre ficasse um passo atrás.
+            [[E sobre sua família?]]</p>
+        </div>
+    </div>
+</body>
+
+
+:: Marca uma consulta com um psicólogo. [Final-Bom] {"position":"600,325","size":"100,100"}
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/CKGRxwT2/Cena7.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .txt {
+        	width: 600px;
+            height: 300px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Na primeira sessão, Henrique chora ao descobrir que sua dor tem nome: ansiedade generalizada. O psicólogo explica que é comum entre jovens devido à sobrecarga e pressão social. Henrique inicia sessões semanais, e, embora não resolva tudo de imediato, sente, pela primeira vez, um alívio e a sensação de poder respirar.
+            [[Veja o fim]]</p>
+        </div>
+    </div>
+</body>
+
+
+:: Menu {"position":"200,250","size":"100,100"}
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 650px;
+            height: 900px;
+            background-image: url('https://i.ibb.co/kgVCnDgW/Chat-GPT-Image-21-de-mai-de-2025-08-10-06.png');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 200px;
+        }
+         .txt {
+        	width: 600px;
+            height: 320px;
+            position: absolute;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 550px;
+        }
+        p {
+            margin: 0;
+            font-size: 65px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>
+(text-colour:transparent)[[Jogar]]</p>
+        </div>
+    </div>
+</body>
+
+
+
+:: Procura respostas nas redes sociais. {"position":"850,175","size":"100,100"}
+  <head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/hJx4p0L3/Cena9.jpg.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .txt {
+        	width: 700px;
+            height: 320px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Henrique abre as suas redes sociais, procurando vídeos com #ansiedade e encontra criadores de conteúdo falando sobre saúde mental, alguns com boas dicas, outros com informações erradas.
+Começa a se identificar com os sintomas, mas também se sente bombardeado por “autoajuda” vazia e comparações com vidas perfeitas.
+[[Marca uma consulta com um psicólogo.]] 
+[[Fica preso nas redes e se sente pior.]]</p>
+        </div>
+    </div>
+</body>
+
+
+:: Veja o fim [Final-Bom] {"position":"600,450","size":"100,100"}
+  <head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 700px;
+            background-image: url('https://i.ibb.co/tP1yHqcD/Cena13.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .txt {
+        	width: 600px;
+            height: 300px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <p>Após superar seus desafios, Henrique se formou em Psicologia, transformando suas experiências em força. Agora, com empatia e determinação, ele quer ajudar quem enfrenta o que ele viveu. Está pronto para oferecer apoio e compreensão a quem precisa.
+            [[Menu]]</p>
+        </div>
+    </div>
+</body>
+
+
+:: Veja o seu final [Final-Ruim] {"position":"775,450","size":"100,100"}
+Esse final realmente é difícil, e é um retrato de como o peso da ansiedade pode se tornar esmagador. Mas, acima de tudo, essa história também é um alerta: há sempre a possibilidade de sair desse lugar escuro. Buscar ajuda de um profissional da saúde mental, como um psicólogo, pode ser o primeiro passo para a recuperação. Você não precisa enfrentar isso sozinho, e eu sei que, com apoio, você pode encontrar a força para superar. Acredite, você é capaz de encontrar luz, mesmo nos momentos mais sombrios.
+
+[[Menu]]
+
+
